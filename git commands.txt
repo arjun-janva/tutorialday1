@@ -15,3 +15,9 @@ git commit -a -m "msg" - add + commit together
 git rm filename - use for deleting file
 git mv filename1 filename2_newname - use for rename
 git rm --cached filename - to make file untracked
+git log -p -number - numbers of commits want to see
+git log --since=2.days or month or years - shows the log of commit's
+git commit --amend  - to do changes in commit (i-insert, escap, :wq - to exit)
+git restore --staged filename - to unstage the staged file
+git checkout -- filename - to recover the data from file that got deleted
+git checkout -f  - used to revocer all file change at a time
