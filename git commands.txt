@@ -14,4 +14,4 @@ git log - to display all commits
 git commit -a -m "msg" - add + commit together
 git rm filename - use for deleting file
 git mv filename1 filename2_newname - use for rename
-git rm --chached filename - to make file untracked
+git rm --cached filename - to make file untracked
