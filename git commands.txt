@@ -10,3 +10,5 @@ rm rf filename - remove file
 git diff - shows the difference of staged file and unmodified file
 git diff --staged - shows the difference between commit files and current stage file
 git clone url any_repository_name
+git log - to display all commits
+git commit -a -m "msg" - add + commit together
