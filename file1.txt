@@ -2,9 +2,4 @@ hi, i am learning git
 it is amazing
 
 asfsjfhsghkffDFdsgfs
-gsf
-gsdf
-gsf
-dg
-sg
-s
+again content is changed
