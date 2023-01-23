@@ -22,3 +22,16 @@ git restore --staged filename - to unstage the staged file
 git checkout -- filename - to recover the data from file that got deleted
 git checkout -f  - used to revocer all file change at a time
 
+git remote - shows the remote's
+git remote add urlname url
+git remote -v - provice the pull and push url
+git push -u origin master  - used to push the repository to the github repository
+
+Generating a new SSH key
+1. $ ssh-keygen -t ed25519 -C "arjunjanva2001@gmail.com"
+2. $ eval "$(ssh-agent -s)"   - to see agent key id
+3. $ ssh-add ~/.ssh/id_ed25519   -  adding the ssh key to git/github
+
+4. tail ~/.ssh/id_ed25519.pub  -- to get sshkey to put in github
+
+
